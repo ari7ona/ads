@@ -30,10 +30,10 @@ class PriorityQueue:
     def peek(self):
         if self.isEmpty():
             raise Exception("Priority Queue is empty")
-        return self.container[0][1]  # Return the item with the highest priority
+        return self.container[0][1]
 
     def show(self):
-        return [item for priority, item in self.container]  # Show items without priorities
+        return [item for priority, item in self.container]
 
 pq = PriorityQueue(5)
 print(pq.isFull())
