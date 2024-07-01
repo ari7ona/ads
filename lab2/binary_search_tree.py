@@ -45,7 +45,6 @@ class Tree:
         else:
             return self.left.inorder() + [self.value] + self.right.inorder()
 
-# Example usage
 t = Tree(20)
 t.insert(15)
 t.insert(25)

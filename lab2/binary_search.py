@@ -9,10 +9,10 @@ def binarySearch(arr, x):
             low = mid + 1
         else:
             high = mid - 1
-    return -1
+    return None
 
 arr = [1, 3, 4, 8, 9, 11, 12]
-x = 17
+x = 11
 result = binarySearch(arr, x)
 if result:
     print("Index of element: ", result)
